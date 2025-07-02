@@ -1,0 +1,60 @@
+{
+    "model": "random_forest",
+    "hyperparameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": "balanced",
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": -1,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+    },
+    "metrics": {
+        "Accuracy": 0.9996195996739425,
+        "F1 (loss)": 0.8695652173913043,
+        "Recall (loss)": 0.8187134502923976,
+        "Precision (loss)": 0.9271523178807947,
+        "Training Time (s)": 658.5113337039948,
+        "CPU Usage (%)": 99.8,
+        "RAM Used (GB)": 3.618828288,
+        "GPU Usage": {}
+    },
+    "feature_importance_top10": {
+        "Feature": {
+            "504": "Month_45_Band_9",
+            "499": "Month_45_Band_4",
+            "33": "Month_3_Band_0",
+            "501": "Month_45_Band_6",
+            "505": "Month_45_Band_10",
+            "55": "Month_5_Band_0",
+            "502": "Month_45_Band_7",
+            "496": "Month_45_Band_1",
+            "500": "Month_45_Band_5",
+            "497": "Month_45_Band_2"
+        },
+        "Importance": {
+            "504": 0.058244048853317965,
+            "499": 0.05245948983750405,
+            "33": 0.039471367348412084,
+            "501": 0.03927953192787982,
+            "505": 0.035605530006225385,
+            "55": 0.029577749693014962,
+            "502": 0.028296019937537307,
+            "496": 0.02748763512288939,
+            "500": 0.027096886610384088,
+            "497": 0.023575208303943485
+        }
+    }
+}
